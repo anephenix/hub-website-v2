@@ -15,7 +15,15 @@ hero:
       variant: secondary
 ---
 
-// import Features from '../../components/features.mdx';
+import Features from '../../components/features.mdx';
+
+## Introducing Hub
+
+Hub is a Realtime framework powered by WebSockets and [Node.js](https://nodejs.org/), and built for [Anephenix](https://anephenix.com). 
+
+## Features
+
+<Features />
 
 ## Install
 
@@ -25,15 +33,28 @@ npm i @anephenix/hub
 
 ## Usage
 
+On the server:
+
 ```javascript
+// Dependencies
 import Hub from '@anephenix/hub';
+
+// Initialize hub to listen on port 4000
+const hub = new Hub({ port: 4000 });
+
+// Start listening
+hub.listen();
 ```
 
-## Source code
+On the client (in the browser or in Node.js):
 
-The source code for Hub is [available on GitHub](https://github.com/anephenix/hub).
+```javascript
+import HubClient from '@anephenix/hub/client';
 
-## Licence and credits
+// Create an instance of HubClient
+const hubClient = new HubClient({ url: 'ws://localhost:4000' });
 
-Hub is released under the [MIT licence](https://opensource.org/license/mit), and is developed and maintained by [Anephenix](https://anephenix.com).
+// Wait for the client to connect and set client ID
+await hubClient.isReady();
+```
 

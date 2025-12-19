@@ -1,17 +1,27 @@
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid>
-  	<Card title="Automatic reconnections" icon="approve-check">
-		If a WebSocket unexpectedly closes, Sarus will create a new WebSocket to replace the closed one automatically.
-  	</Card>
-  	<Card title="Robust event listener binding" icon="approve-check">
-    	Sarus handles attaching event listener functions to WebSockets, so that you don't have to re-bind those functions manually.
-	</Card>
-    <Card title="Resilient message delivery" icon="approve-check">
-		Sarus uses a message queue for sending messages to the server, ensuring that they get sent only when the WebSocket connection is open.
-	</Card>
+	<Card title="Powered by Sarus" icon="approve-check">
+		Hub uses [Sarus](https://sarus.anephenix.com) to provide resilient WebSocket support. This provides automatic reconnections, rebinds event listener functions, and implements message queue for robust message delivery.
+  	</Card>		
+
 	<Card title="Isomorphic support" icon="approve-check">
-		Sarus can be used in both the web browser and in server-side runtimes like <a href="https://nodejs.org/">Node.js</a>, <a href="https://deno.land/">Deno</a>, and <a href="https://bun.sh/">Bun</a>.
+		You can connect to a Hub server from the web browser or from server-side runtimes like Node.js, Deno, and Bun.
 	</Card>
 
+	<Card title="Remote Procedure Calls" icon="approve-check">
+		You can use bi-directional Remote Procedure Calls (RPC), as well as request-only RPC calls.
+	</Card>
+
+	<Card title="Advanced PubSub functionality" icon="approve-check">
+		You get Publish/Subscribe out of the box, alongside features like authenticated channels and enabling/disabling client publish capabilities.
+	</Card>
+
+	<Card title="Clients subcriptions on channels" icon="approve-check">
+		When clients connect/disconnect, you can automatically subscribe them to or unsubscribe them from channels.
+	</Card>
+
+	<Card title="Security features" icon="approve-check">
+		You can restrict where WebSocket connections can be made from, as well as kick and ban clients that misbehave. 
+	</Card>
 </CardGrid>
