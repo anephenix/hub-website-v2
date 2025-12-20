@@ -13,7 +13,7 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						// { label: 'Why use Sarus?', slug: 'guides/why-use-sarus' },
+						{ label: 'Get started', slug: 'guides/get-started' },
 					],
 				},
 				{
