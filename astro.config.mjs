@@ -20,6 +20,7 @@ export default defineConfig({
 					label: 'Documentation',
 					items: [
 						{ label: 'Introduction', slug: 'documentation' },
+						{ label: 'Install', slug: 'documentation/install' },
 					]
 				},
 				{
