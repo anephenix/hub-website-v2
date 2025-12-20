@@ -21,6 +21,7 @@ export default defineConfig({
 					items: [
 						{ label: 'Introduction', slug: 'documentation' },
 						{ label: 'Install', slug: 'documentation/install' },
+						{ label: 'Starting a server', slug: 'documentation/starting-a-server' },
 					]
 				},
 				{
