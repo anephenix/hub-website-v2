@@ -23,6 +23,7 @@ export default defineConfig({
 						{ label: 'Install', slug: 'documentation/install' },
 						{ label: 'Starting a server', slug: 'documentation/starting-a-server' },
 						{ label: 'Loading a client in the browser', slug: 'documentation/loading-a-client-in-the-browser' },
+						{ label: 'Loading a client in Node.js', slug: 'documentation/loading-a-client-in-node-js' },
 					]
 				},
 				{
