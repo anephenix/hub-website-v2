@@ -52,3 +52,18 @@ const getPriceFunction = ({ data, reply }) => {
 // We then attach that function to the RPC action 'get-price'
 hub.rpc.add('get-price', getPriceFunction);
 ```
+
+To then call this RPC function from the client, you can run this:
+
+```javascript
+// Setup a request to get the price of ethereum
+const request = {
+	action: 'get-price',
+	data: { cryptocurrency: 'ethereum' },
+};
+// Send that RPC request to the server
+const { cryptocurrency } = await hubClient.rpc.send(request);
+
+// Log the response from the data
+console.log({ cryptocurrency });
+```
