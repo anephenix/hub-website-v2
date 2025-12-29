@@ -24,6 +24,7 @@ export default defineConfig({
 						{ label: 'Starting a server', slug: 'documentation/starting-a-server' },
 						{ label: 'Loading a client in the browser', slug: 'documentation/loading-a-client-in-the-browser' },
 						{ label: 'Loading a client in Node.js', slug: 'documentation/loading-a-client-in-node-js' },
+						{ label: 'RPC - Creating an action on the server', slug: 'documentation/creating-an-action-on-the-server' },
 					]
 				},
 				{

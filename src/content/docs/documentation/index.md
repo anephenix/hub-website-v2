@@ -7,3 +7,7 @@ description: The full documentation for Hub
 - [Starting a server](/documentation/starting-a-server)
 - [Loading a client in the browser](/documentation/loading-a-client-in-the-browser)
 - [Loading a client in Node.js](/documentation/loading-a-client-in-node-js)
+
+## RPC
+
+- [Creating an action on the server](/documentation/creating-an-action-on-the-server)
