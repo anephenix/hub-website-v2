@@ -31,3 +31,8 @@ const response = await hubServer.rpc.send({
 	action: 'get-environment',
 });
 ```
+
+## Next steps
+
+- [Calling an action from the server](/documentation/calling-an-action-from-the-server)
+- [Calling an action without a response](/documentation/calling-an-action-without-a-response)
