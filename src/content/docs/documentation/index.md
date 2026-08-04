@@ -30,6 +30,7 @@ description: The full documentation for Hub
 ## Advanced PubSub
 
 - [Handling client disconnects/reconnects](/documentation/handling-client-disconnects-and-reconnects)
+- [Fetching missed messages](/documentation/fetching-missed-messages)
 - [Client/channel subscription data stores](/documentation/client-channel-subscription-data-stores)
 - [Authenticated channels](/documentation/authenticated-channels)
 - [Wildcard channel configurations](/documentation/wildcard-channel-configurations)

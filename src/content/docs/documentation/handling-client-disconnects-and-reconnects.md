@@ -21,4 +21,5 @@ This makes it safe to build features on top of PubSub without needing to write y
 
 ## Next steps
 
+- [Fetching missed messages](/documentation/fetching-missed-messages)
 - [Client/channel subscription data stores](/documentation/client-channel-subscription-data-stores)

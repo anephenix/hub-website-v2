@@ -56,6 +56,7 @@ export default defineConfig({
 							label: 'Advanced PubSub',
 							items: [
 								{ label: 'Handling client disconnects/reconnects', slug: 'documentation/handling-client-disconnects-and-reconnects' },
+								{ label: 'Fetching missed messages', slug: 'documentation/fetching-missed-messages' },
 								{ label: 'Client/channel subscription data stores', slug: 'documentation/client-channel-subscription-data-stores' },
 								{ label: 'Authenticated channels', slug: 'documentation/authenticated-channels' },
 								{ label: 'Wildcard channel configurations', slug: 'documentation/wildcard-channel-configurations' },
